@@ -1,0 +1,12 @@
+<?php	
+	$numero = array(101, 5, 10, 20, 8);
+	$maior = $numero[0];
+	echo "Numeros <br>";
+	for($i = 0; $i < count($numero); $i++){
+		echo $numero[$i]."<br>";
+		if($numero[$i] > $maior){
+			$maior = $numero[$i];
+		}
+	}
+	echo "Maior numero eh: " .$maior;
+?>
