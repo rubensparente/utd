@@ -1,0 +1,10 @@
+<?php
+	
+	$notas = array(9, 7, 5, 8, 9, 10, 4, 8, 6, 8);
+	$total = 0;
+
+	for($i=0; $i<count($notas); $i++){
+		$total += $notas[$i];
+	}
+	echo $meida1 = $total / count($notas);
+?>
