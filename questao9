@@ -1,0 +1,12 @@
+<?php
+
+	$nome = array("Paulo", "Roberto","Renata", "Rubens","Rogerio","Eduardo","Francisco","João","Thiago","Jorge");
+	
+	
+	
+	# Estrutura de Repetição
+	for($i=count($nome)-1; $i > 0 ;$i--){
+		
+		echo "Meu nome é " .$nome[$i]."<br>";
+	}
+?>
