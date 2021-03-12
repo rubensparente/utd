@@ -1,5 +1,4 @@
 <?php
-		//$data = mktime(22,43,00,11,03,2021);
 		$data = date("11/03/2021");
 		$data = explode("/", $data);
 		list($dia, $mes, $ano) = $data;
